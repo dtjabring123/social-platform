@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './user/user-list/user-list.component';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, UserListComponent],
+  declarations: [AppComponent, UserListComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -3,7 +3,6 @@ import { UserService } from '../user.service';
 import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
-  standalone: true,
   selector: 'app-user-list',
   templateUrl: './user-list.component.html',
   styleUrls: ['./user-list.component.css'],
